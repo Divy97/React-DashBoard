@@ -11,8 +11,8 @@ Kanban, Area, Bar, Line, Pie, Financial, ColorPicker, ColorMapping, Editor} from
 
 const App = () => {
 
-    const activeMenu = false;
-  return (
+    const activeMenu = true;
+  return ( 
     <div>
         <BrowserRouter>
             <div className='flex relative dark:bg-main-dark-bg'>
